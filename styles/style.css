@@ -17,7 +17,7 @@ img {
 
 .ww-image-main-three {
   position: absolute;
-  bottom: 25vh;
+  bottom: 30vh;
   left: 0;
   z-index: 2;
   width: 50%;
@@ -26,7 +26,7 @@ img {
 .ww-image-main-six {
   position: absolute;
   bottom: 25vh;
-  right: 0;
+  right: 7vh;
   z-index: 1;
   width: 50%;
 }
@@ -51,21 +51,23 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 115%;
 }
 
 .ww-image-main-five {
   position: absolute;
   top: 20vh;
-  right: 0;
+  right: -3vh;
   z-index: 0;
-  width: 50%;
+  width: 60%;
 }
 
 .ww-image-main-seven {
   position: absolute;
-  top: 320px;
-  left: 450px;
+  top: 7vh;
+  left: 0vh;
+  z-index: 0;
+  width: 40%;
 }
 
 .ww-page-container {
@@ -91,39 +93,50 @@ img {
 
 .ww-image-main-eight {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  right: 0;
+  z-index: 4;
+  width: 120%;
 }
 
 .ww-image-main-nine {
   position: absolute;
-  top: 470px;
-  right: 200px;
+  bottom: -3vh;
+  left: -7vh;
+  z-index: 1;
+  width: 70%;
 }
 
 .ww-image-main-twenty {
   position: absolute;
-  top: 260px;
-  right: 300px;
+  bottom: 0;
+  left: -17vh;
+  z-index: 0;
+  width: 70%;
 }
 
 .ww-image-main-ten {
-  position: relative;
-  top: 85px;
-  right: 0px;
-  z-index: -1;
+  position: absolute;
+  top: 7vh;
+  right: 0;
+  z-index: 0;
+  width: 100%;
 }
 
 .ww-image-main-eleven {
   position: absolute;
-  top: 600px;
-  right: 100px;
+  bottom: -3vh;
+  left: 0;
+  z-index: 0;
+  width: 80%;
 }
 
 .ww-image-main-twelve {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  width: 110%;
 }
 
 .ww-image-main-thirteen {
@@ -140,22 +153,25 @@ img {
 
 .ww-image-main-fifteen {
   position: absolute;
-  top: 100px;
-  right: 200px;
+  top: 0vh;
+  left: -15vh;
+  z-index: 0;
+  width: 80%;
 }
 
 .ww-image-main-sixteen {
   position: absolute;
-  top: 100px;
-  right: 100px;
-  z-index: 6;
+  top: 10vh;
+  right: 10vh;
+  z-index: 4;
+  width: 80%;
 }
 
 .ww-image-main-seventeen {
   position: absolute;
-  top: 280px;
-  right: 280px;
-  z-index: 7;
+  bottom: 0;
+  right: -3vh;
+  z-index: 4;
   width: 40%;
 }
 
@@ -168,14 +184,18 @@ img {
 
 .ww-image-main-nineteen {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 70%;
 }
 
 .ww-image-main-twentyone {
   position: absolute;
-  top: 480px;
-  right: 0px;
+  bottom: -3vh;
+  right: -1vh;
+  z-index: 5;
+  width: 85%;
 }
 
 .ww-image-main-twentytwo {
@@ -185,20 +205,201 @@ img {
   z-index: 10;
 }
 
+
 @media only screen and (max-width: 1050px) {
   .ww-image-main-five {
+    position: absolute;
+    top: 20vh;
+    right: -3vh;
+    z-index: 0;
     width: 70%;
   }
 
+  .ww-image-main-two {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: 4;
+    width: 100%
+  }
+
   .ww-image-main-three {
+    position: absolute;
+    bottom: 30vh;
+    left: 0;
+    z-index: 2;
     width: 70%;
+  }
+
+  .ww-image-main-six {
+    position: absolute;
+    bottom: 25vh;
+    right: 7vh;
+    z-index: 2;
+    width: 70%
+  }
+
+  .ww-image-main-nine {
+    position: absolute;
+    bottom: -3vh;
+    left: -7vh;
+    z-index: 1;
+    width: 70%
+  }
+
+  .ww-image-main-twelve {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    width: 105%
+  }
+
+  .ww-image-main-twenty {
+    position: absolute;
+    bottom: 0;
+    left: -17vh;
+    z-index: 0;
+    width: 80%
+  }
+
+  .ww-image-main-nineteen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    width: 70%
+  }
+
+  .ww-image-main-twentyone {
+    position: absolute;
+    bottom: -3vh;
+    right: -1vh;
+    z-index: 5;
+    width: 95%
+  }
+
+  .ww-image-main-fifteen {
+    position: absolute;
+    top: 0vh;
+    left: -15vh;
+    z-index: 0;
+    width: 80%
+  }
+
+  .ww-image-main-three {
+    position: absolute;
+    bottom: 30vh;
+    left: 0;
+    z-index: 2;
+    width: 50%
+  }
+
+  .ww-image-main-six {
+    position: absolute;
+    bottom: 25vh;
+    right: 7vh;
+    z-index: 1;
+    width: 50%;
+  }
+
+  .ww-image-main-four {
+    width: 120%;
+  }
+
+  .ww-image-main-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    width: 70%;
+  }
+
+  .ww-image-main-seven {
+    position: absolute;
+    top: 7vh;
+    left: 0vh;
+    z-index: 0;
+    width: 40%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .ww-image-main-five {
+    position: absolute;
+    top: 10vh;
+    right: -5vh;
+    z-index: 3;
     width: 100%;
   }
+  .ww-image-main-three {
+    position: absolute;
+    bottom: 33vh;
+    z-index: 4;
+    width: 110%;
+  }
+
+  .ww-image-main-six {
+    width: 100%
+  }
+
+  .ww-image-main-two {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: 4;
+    width: 290%
+  }
+
+  .ww-image-main-eight {
+    position: absolute;
+    top: 0;
+    right: -7vh;
+    z-index: 4;
+    width: 200%
+  }
+
+  .ww-image-main-one {
+    width: 100%;
+  }
+
+  .ww-image-main-seven {
+    position: absolute;
+    top: 10vh;
+    left: -8vh;
+    z-index: 0;
+    width: 100%;
+  }
+
+  .ww-image-main-four {
+    width: 150%;
+  }
+
+  .ww-image-main-ten {
+    position: absolute;
+    bottom: 8vh;
+    right: -8vh;
+    z-index: 0;
+    width: 170%
+  }
+
+  .ww-image-main-eleven {
+    position: absolute;
+    bottom: -3vh;
+    left: 0;
+    z-index: 5;
+    width: 140%
+  }
+
+  .ww-image-main-seventeen {
+    position: absolute;
+    bottom: 0;
+    right: -14vh;
+    z-index: 6;
+    width: 100%;
+  }
+
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -207,6 +408,92 @@ img {
   }
 
   .ww-image-main-five {
+    width: 60%;
+  }
+
+  .ww-image-main-two {
+    width: 130%
+  }
+
+  .ww-image-main-seventeen {
+    position: absolute;
+    bottom: 0;
+    right: -4vh;
+    z-index: 6;
+    width: 45%
+  }
+
+  .ww-image-main-eight {
+    width: 130%
+  }
+
+  .ww-image-main-eleven {
+    bottom: -1vh;
+    width: 84%
+
+  }
+
+  .ww-image-main-sixteen {
+    width: 80%
+  }
+
+  .ww-image-main-nine {
+    width: 70%
+  }
+
+  .ww-image-main-twelve {
+    width: 105%
+  }
+
+  .ww-image-main-twenty {
+    width: 80%
+  }
+
+  .ww-image-main-nineteen {
+    width: 70%
+  }
+
+  .ww-image-main-twentyone {
+    position: absolute;
+    bottom: -3vh;
+    right: -5vh;
+    z-index: 5;
+    width: 102%
+  }
+
+  .ww-image-main-fifteen {
+    width: 80%
+  }
+
+  .ww-image-main-three {
+    position: absolute;
+    bottom: 30vh;
+    left: 0;
+    z-index: 2;
+    width: 52%
+  }
+
+  .ww-image-main-six {
     width: 50%;
+  }
+
+  .ww-image-main-four {
+    width: 120%;
+  }
+
+  .ww-image-main-one {
+    width: 70%;
+  }
+
+  .ww-image-main-seven {
+    width: 40%;
+  }
+
+  .ww-image-main-ten {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%
   }
 }
