@@ -19,6 +19,15 @@ img {
 
 }
 
+.ww-audio {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 7;
+width: 40%;
+
+}
+
 .ww-image-main-three {
   position: absolute;
   bottom: 30vh;
@@ -26,6 +35,7 @@ img {
   z-index: 2;
   width: 50%;
 }
+
 
 .ww-image-main-twentythree {
   position: absolute;
@@ -64,6 +74,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 115%;
 }
 
